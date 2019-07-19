@@ -2,6 +2,7 @@
 Dockerfile
 .dockerignore
 *.txt
-*.txt
+*.TXT
 /chal
 /config.inc.*
+/changelog*

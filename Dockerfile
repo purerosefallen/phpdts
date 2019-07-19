@@ -1,4 +1,4 @@
-FROM php:5.6-apache
+FROM php:5.4-apache
 
 RUN apt update && \
 	env DEBIAN_FRONTEND=noninteractive apt -y install wget libcurl4-openssl-dev libfreetype6-dev libjpeg62-turbo-dev libpng-dev && \
